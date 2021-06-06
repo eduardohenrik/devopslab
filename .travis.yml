@@ -8,7 +8,6 @@ python:
 os: linux
 dist: xenial  
 
-
 # Instalação de Módulos que são necessários para a Aplicação.
 install:
   - pip install flask
