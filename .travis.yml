@@ -20,4 +20,4 @@ deploy:
   edge: true 
   app: devopslab-grupo15
   on:
-      branch: main
+      branch: master
