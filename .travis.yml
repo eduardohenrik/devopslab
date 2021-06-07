@@ -25,3 +25,9 @@ deploy:
   app: devopslab-grupo15
   on:
       branch: master
+
+  - provider: gae
+    keyfile: ../lab-devops-cloud-e2c2da9aee66.json
+    project: lab-devops-cloud-grupo15
+    on:
+      branch: main
